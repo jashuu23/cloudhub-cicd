@@ -3,8 +3,8 @@
 <servers>
 	<server>
 		<id>anypoint-exchange-v3</id>
-		<username>jashu-nov</username>
-		<password>Satya@23</password>
+		<username>c60aada09ed34f2598dae48f26082b78</username>
+		<password>Eccc1Ddf6d02467495879aCA4f75D2DB</password>
 	</server>
   <!-- <server>   
 	<id>anypoint-exchange-v3</id> 
@@ -145,3 +145,4 @@ https://help.salesforce.com/s/articleView?id=001119708&type=1
 </profiles>
 
 </settings>
+
