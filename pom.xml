@@ -40,7 +40,7 @@
 						<businessGroupId>469e9fdb-66a0-442a-bd41-668b21a64f7c</businessGroupId>
 						<applicationName>maven-deploy-cloudhub</applicationName>
 						<environment>Dev</environment>
-						<region>us-east-2</region>
+						<!-- <region>us-east-2</region> -->
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
 					</cloudHubDeployment>
@@ -49,6 +49,15 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+    	<repository>
+	        <id>anypoint-exchange-v3</id>
+	        <name>Anypoint Exchange</name>
+	        <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/469e9fdb-66a0-442a-bd41-668b21a64f7c/maven</url>
+	        <layout>default</layout>
+    	</repository>
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
