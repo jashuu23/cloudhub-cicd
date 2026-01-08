@@ -29,7 +29,7 @@ jobs:
  
       - name: Publish to Exchange
         run: |
-          mvn deploy --settings .maven/settings.xml -DskipMunitTests \
+          mvn deploy --settings .settings/settings 2.xml -DskipMunitTests \
           -Danypoint.username="jashu-nov" \
           -Danypoint.password="Satya@23"
  
@@ -50,7 +50,7 @@ jobs:
             ${{ runner.os }}-maven-
       - name: Deploy to dev
         run: |
-          mvn deploy --settings .settings/settings.xml -DskipMunitTests -DmuleDeploy \
+          mvn deploy --settings .settings/settings 2.xml -DskipMunitTests -DmuleDeploy \
           -Danypoint.username="jashu-nov" \
           -Danypoint.password="Satya@23" \
           -Danypoint.businessGroup="469e9fdb-66a0-442a-bd41-668b21a64f7c" \
