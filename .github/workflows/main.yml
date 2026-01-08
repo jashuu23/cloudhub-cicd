@@ -30,8 +30,8 @@ jobs:
       - name: Publish to Exchange
         run: |
           mvn deploy --settings .settings/settings.xml -DskipMunitTests \
-          -Danypoint.username="jashu-nov" \
-          -Danypoint.password="Satya@23"
+          -Danypoint.username="c60aada09ed34f2598dae48f26082b78" \
+          -Danypoint.password="Eccc1Ddf6d02467495879aCA4f75D2DB"
  
  
   deploydev:
