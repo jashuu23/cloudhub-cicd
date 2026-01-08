@@ -51,8 +51,8 @@ jobs:
       - name: Deploy to dev
         run: |
           mvn deploy --settings .settings/settings.xml -DskipMunitTests -DmuleDeploy \
-          -Danypoint.username="jashu-nov" \
-          -Danypoint.password="Satya@23" \
+          -Danypoint.username="c60aada09ed34f2598dae48f26082b78" \
+          -Danypoint.password="Eccc1Ddf6d02467495879aCA4f75D2DB" \
           -Danypoint.businessGroup="469e9fdb-66a0-442a-bd41-668b21a64f7c" \
           -Denv="Dev" \
           -Dappname="maven-deploy-cloudhub" \
