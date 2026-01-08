@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<settings>
+<servers>
+<!--
+<server>
+<id>anypoint-exchange-v3</id>
+<username></username>
+<password></password>
+</server>
+-->
+  <server>   
+	<id>anypoint-exchange-v3</id> 
+	<username>~~~Client~~~</username>
+	<password>8b71897a36fe4e5baffcb1731c9de294~?~23D98Ae8517B432E8c04A78cD7067413</password> 
+	</server> 
+  <!-- connected app's required scopes:
+https://help.salesforce.com/s/articleView?id=001119708&type=1
+  -->
+<!-- Cozzini Bro's -->
+<!-- <server>   
+<id>anypoint-exchange-v3</id> 
+<username>~~~Client~~~</username>
+<password>9e45561adc2c48ffbd9b7c4a66030f17~?~03B46F48f610435780C5d434C53f37Ad</password> 
+</server> -->
+<!-- Archima All Access -->
+	<!-- <server>   
+	<id>anypoint-exchange-v3</id> 
+	<username>~~~Client~~~</username>
+	<password>c60aada09ed34f2598dae48f26082b78~?~Eccc1Ddf6d02467495879aCA4f75D2DB</password> 
+	</server> -->
+
+	<!-- <server>   
+	<id>anypoint-exchange-v2</id> 
+	<username>~~~Client~~~</username>
+	<password>76f002fff9c041d78a663b0a26bc008f~?~a8055e977df843bCB9fFB5683E52A9BA</password> 
+	</server> -->
+ 
+     <!-- <server>   
+<id>anypoint-exchange-v3</id> 
+<username>~~~Client~~~</username>
+<password>08a56380843f4d66a8b1ab15c1efb214~?~6be1C1a2B6AB4e3f894dA3BEfC228b08</password> 
+</server>  -->
+ 
+   <!-- Traning <server>   
+<id>anypoint-exchange-v3</id> 
+<username>~~~Client~~~</username>
+<password>99b73bfd02de42a2bf73a948b86e69cb~?~36ba61A44f734442a0184259e7dB376B</password> 
+</server> -->
+<!-- <server>   
+<id>anypoint-exchange-v3</id> 
+<username>~~~Client~~~</username>
+<password>ab3d083fe6bc491caf69822ffc233b42~?~A3113833f5d44a84Bb1BcBB7102C3b18</password> 
+</server> -->
+ 
+  <!-- <server> 
+<id>anypoint-exchange-v3</id> 
+<username>~~~client~~~</username> 
+<password>c4e14e67ac994360b0b816e5654ae4ab~?~F096d550B6714914a6188ed32664b38c</password> 
+</server> -->
+<!-- <server>
+<id>releasenexus</id>
+<username>anthem.inc.nexus</username>
+<password>EFkljTsG</password>
+</server>
+<server>
+<id>snapshotnexus</id>
+<username>anthem.inc.nexus</username>
+<password>EFkljTsG</password>
+</server> -->
+ 
+    <!-- Another sample, using keys to authenticate.
+<server>
+<id>siteServer</id>
+<privateKey>/path/to/private/key</privateKey>
+<passphrase>optional; leave empty if not used.</passphrase>
+</server>
+      -->
+</servers>
+ 
+  <pluginGroups>
+<pluginGroup>org.mule.tools</pluginGroup>
+</pluginGroups>
+ 
+  <profiles>
+<profile>
+<id>mule-extra-repos</id>
+<activation>
+<activeByDefault>true</activeByDefault>
+</activation>
+ 
+      <repositories>
+<repository>
+<id>mule-public</id>
+<url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
+</repository>
+</repositories>
+ 
+      <pluginRepositories>
+<pluginRepository>
+<id>mule-public</id>
+<url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
+</pluginRepository>
+</pluginRepositories>
+</profile>
+ 
+    <profile>
+<id>Mule</id>
+<activation>
+<activeByDefault>true</activeByDefault>
+</activation>
+ 
+      <repositories>
+<repository>
+<id>MuleRepository</id>
+<name>MuleRepository</name>
+<url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
+<layout>default</layout>
+<releases>
+<enabled>true</enabled>
+</releases>
+<snapshots>
+<enabled>false</enabled>
+</snapshots>
+</repository>
+ 
+        <repository>
+<id>MuleRepositoryPublic</id>
+<name>MuleRepositoryPublic</name>
+<url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
+<layout>default</layout>
+<releases>
+<enabled>true</enabled>
+</releases>
+<snapshots>
+<enabled>false</enabled>
+</snapshots>
+</repository>
+<repository>
+<id>anypoint-exchange-v3</id>
+<name>Anypoint Exchange</name>
+<url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
+<layout>default</layout>
+</repository>
+</repositories>
+ 
+    </profile>
+</profiles>
+</settings>
