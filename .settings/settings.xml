@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <settings>
 <servers>
-	<server>
+	<!-- <server>
 		<id>anypoint-exchange-v3</id>
-		<username>c60aada09ed34f2598dae48f26082b78</username>
-		<password>Eccc1Ddf6d02467495879aCA4f75D2DB</password>
-	</server>
-  <!-- <server>   
+		<username>jashu-nov</username>
+		<password>Satya@23</password>
+	</server> -->
+  <server>   
 	<id>anypoint-exchange-v3</id> 
 	<username>~~~Client~~~</username>
-	<password>8b71897a36fe4e5baffcb1731c9de294~?~23D98Ae8517B432E8c04A78cD7067413</password> 
-	</server>  -->
+	<password>c60aada09ed34f2598dae48f26082b78~?~Eccc1Ddf6d02467495879aCA4f75D2DB</password> 
+  </server> 
   <!-- connected app's required scopes:
 https://help.salesforce.com/s/articleView?id=001119708&type=1
   -->
